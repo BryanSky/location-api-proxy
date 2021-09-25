@@ -36,7 +36,7 @@ def get_next_save_spot():
 
 
 @app.route('/getStatus')
-def get_next_save_spot():
+def get_status():
     name = None
     if "name" in request.args.keys():
         name = request.args["name"]
